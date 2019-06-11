@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:id="@+id/layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <!--<TextView-->
+        <!--android:id="@+id/tv_label"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="@null"-->
+        <!--android:gravity="center_vertical"-->
+        <!--android:hint="标签"-->
+        <!--android:singleLine="true"-->
+        <!--android:textColor="@android:color/black"-->
+        <!--android:textColorHint="@android:color/black"-->
+        <!--android:textSize="12dp" />-->
+
+        <ImageView
+            android:id="@+id/tv_micon"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:src="@drawable/icon_position1" />
+
+    </RelativeLayout>
+
+</LinearLayout>
